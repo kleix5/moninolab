@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.css';
+import './manul.png';
+import './polychai.gif';
+
+
+
 
 function Navbar() {
   return (
@@ -8,7 +13,8 @@ function Navbar() {
 
         <ul className="nav-menu">
           <li className="nav-item">
-            <a href="/" className="nav-link">Главная</a>
+            <img src='manul.png'/>
+          {/* <a href="/" className="nav-link">Главная</a> */}
           </li>
           <li className="nav-item">
             <a href="/about" className="nav-link">О нас</a>
