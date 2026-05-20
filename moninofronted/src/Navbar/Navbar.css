@@ -1,7 +1,7 @@
 
 
  .navbar {
-  background-color: #272b33;
+  background-color: rgba(14,14,14,0.95);
   padding: 0;
   position: sticky;
   top: 0;
@@ -10,7 +10,7 @@
 }
 
 .navbar-osnova {
-  max-width: 1050px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

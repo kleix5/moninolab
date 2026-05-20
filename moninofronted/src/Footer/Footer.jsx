@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-content">
-          <h3>123</h3>
+          <h3>2026</h3>
           <p>Все манулы защищены</p>
         </div>
         <div className="footer-links">
