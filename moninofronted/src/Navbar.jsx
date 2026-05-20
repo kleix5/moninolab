@@ -5,16 +5,16 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-osnova">
         <div className="navbar-logo">
-          <img src="manul.png"/>
+          <img src="manul.png" alt='logo'/>
         </div>
         <ul className="nav-menu">
-          <li className="nav-item">
+          <li>
             <a href="/about" className="nav-link">О нас</a>
           </li>
-          <li className="nav-item">
+          <li>
             <a href="/services" className="nav-link">Манулы</a>
           </li>
-          <li className="nav-item">
+          <li>
             <a href="/contact" className="nav-link">Контакты</a>
           </li>
         </ul>
@@ -22,4 +22,5 @@ function Navbar() {
     </nav>
   );
 }
+
 export default Navbar;
