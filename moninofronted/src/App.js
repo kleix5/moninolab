@@ -14,7 +14,7 @@ function App(){
       <Sidebar/>
 
         <ProductCard
-          image="manul.png"
+          image="./manul/стикер.png"
           title="Продукт 1"
           price="??"
           rating="4.5"

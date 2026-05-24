@@ -9,7 +9,7 @@ const ProductCard = ({
   onAddToCart 
 }) => {
   return (
-
+    // <div className="container">
     <div className="product-card">
       <div className="product-image">
         <img src={image} alt={title} />
@@ -34,6 +34,7 @@ const ProductCard = ({
         </div>
       </div>
     </div>
+    // </div>
 
   );
 };
