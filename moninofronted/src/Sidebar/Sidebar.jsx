@@ -2,7 +2,7 @@ import './Sidebar.css';
 
 function Sidebar() {
   return (
-  <div className="sidebar">
+  <div className="">
     <ul>
       <li>Профиль</li>
       <li>Заказы</li>

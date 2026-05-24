@@ -13,13 +13,7 @@ function App(){
       <Navbar/>
       <Sidebar/>
 
-        <ProductCard
-          image="./manul/case.png"
-          title="Чехол"
-          price="??"
-          rating="4.5"
-          onAddToCart={() => alert('Добавлено в корзину!')}
-        />
+       
         <ProductCard
           image="./manul/caseblack2.png"
           title="Чехол"
