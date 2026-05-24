@@ -9,13 +9,13 @@ import Sidebar from './Sidebar/Sidebar.jsx';
 
 function App(){
   return (
-    <div className="page-layout">
+    <div className="stranichka">
       <Navbar/>
       <div className="page-body">
         <Sidebar/>
         <div className="content">
           <div className='product-grid'>
-        <ProductCard
+          <ProductCard
           image="./manul/case.png"
           title="Чехол"
           price="??"
