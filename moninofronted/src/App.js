@@ -9,54 +9,13 @@ import Sidebar from './Sidebar/Sidebar.jsx';
 
 function App(){
   return (
-    <div>
+    <div className="page-layout">
       <Navbar/>
-      <Sidebar/>
-
-       
+      <div className="page-body">
+        <Sidebar/>
+        <div className="content">
+          <div className='product-grid'>
         <ProductCard
-          image="./manul/caseblack2.png"
-          title="Чехол"
-          price="??"
-          rating="4.5"
-          onAddToCart={() => alert('Добавлено в корзину!')}
-        /><ProductCard
-        image="./manul/caseblack.png"
-        title="Чехол"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="./manul/casegreen.png"
-        title="Чехол"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="./manul/caseorange.png"
-        title="Чехол"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="./manul/casepink.png"
-        title="Чехол"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="./manul/casered.png"
-        title="Чехол"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="./manul/casestiker.png"
-        title="Чехол"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
         image="./manul/cup_cyan.png"
         title="Кружка"
         price="??"
@@ -154,12 +113,92 @@ function App(){
         onAddToCart={() => alert('Добавлено в корзину!')}
       /><ProductCard
         image="manul.png"
+        title="Илюша"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
+        title="Продукт 1"
+        price="??"
+        rating="4.5"
+        onAddToCart={() => alert('Добавлено в корзину!')}
+      /><ProductCard
+        image="manul.png"
         title="Продукт 1"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
       />
-
+          </div>
+        </div>
+      </div>
       <Footer/>
     </div>
   )
