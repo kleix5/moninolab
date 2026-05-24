@@ -1,9 +1,9 @@
 
 .product-card {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  vertical-align: top;
-  margin: 10px;
+  width: 100%;
+  max-width: 280px;
   border: 1px solid rgb(153, 148, 148);
   border-radius: 7px;
   overflow: hidden;

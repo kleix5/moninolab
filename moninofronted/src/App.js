@@ -9,10 +9,12 @@ import Sidebar from './Sidebar/Sidebar.jsx';
 
 function App(){
   return (
-    <div>
+    <div className="page-layout">
       <Navbar/>
-      <Sidebar/>
-
+      <div className="page-body">
+        <Sidebar/>
+        <div className="content">
+          <div className='product-grid'>
         <ProductCard
           image="./manul/стикер.png"
           title="Продукт 1"
@@ -164,8 +166,46 @@ function App(){
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
-      />
-
+      /><ProductCard
+          image="./manul/стикер.png"
+          title="Продукт 1"
+          price="??"
+          rating="4.5"
+          onAddToCart={() => alert('Добавлено в корзину!')}
+        /><ProductCard
+          image="./manul/стикер.png"
+          title="Продукт 1"
+          price="??"
+          rating="4.5"
+          onAddToCart={() => alert('Добавлено в корзину!')}
+        /><ProductCard
+          image="./manul/стикер.png"
+          title="Продукт 1"
+          price="??"
+          rating="4.5"
+          onAddToCart={() => alert('Добавлено в корзину!')}
+        /><ProductCard
+          image="./manul/стикер.png"
+          title="Продукт 1"
+          price="??"
+          rating="4.5"
+          onAddToCart={() => alert('Добавлено в корзину!')}
+        /><ProductCard
+          image="./manul/стикер.png"
+          title="Продукт 1"
+          price="??"
+          rating="4.5"
+          onAddToCart={() => alert('Добавлено в корзину!')}
+        /><ProductCard
+          image="./manul/стикер.png"
+          title="Продукт 1"
+          price="??"
+          rating="4.5"
+          onAddToCart={() => alert('Добавлено в корзину!')}
+        />
+          </div>
+        </div>
+      </div>
       <Footer/>
     </div>
   )
