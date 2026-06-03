@@ -16,81 +16,45 @@ function App(){
         <div className="content">
           <div className='product-grid'>
         <ProductCard
-          image="./manul/case1.png"
+          image="./manul/chehol_manul1.png"
           title="Продукт 1"
           price="??"
           rating="4.5"
           onAddToCart={() => alert('Добавлено в корзину!')}
         />
         <ProductCard
-          image="./manul/case2.png"
+          image="./manul/chehol_manul2.png"
           title="Продукт 1"
           price="??"
           rating="4.5"
           onAddToCart={() => alert('Добавлено в корзину!')}
         /><ProductCard
-        image="./manul/case3.png"
+        image="./manul/chehol_manul3.png"
         title="Продукт 1"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
       /><ProductCard
-        image="./manul/case4.png"
+        image="./manul/chehol_manul4.png"
         title="Продукт 1"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
       /><ProductCard
-        image="./manul/case5.png"
+        image="./manul/chehol_manul5.png"
         title="Продукт 1"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
       /><ProductCard
-        image="./manul/case6.png"
+        image="./manul/chehol_manul6.png"
         title="Продукт 1"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
       /><ProductCard
-       image="./manul/case7.png"
+       image="./manul/chehol_manul7.png"
         title="Продукт 1"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="manul.png"
-        title="Продукт 1"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="manul.png"
-        title="Продукт 1"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="manul.png"
-        title="Продукт 1"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="manul.png"
-        title="Продукт 1"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="manul.png"
-        title="Продукт 1"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="./manul/cup1.png"
-        title="Кружка"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
@@ -114,13 +78,13 @@ function App(){
         onAddToCart={() => alert('Добавлено в корзину!')}
       /><ProductCard
         image="./manul/cup5.png"
-        title="Футболка"
+        title="Кружка"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
       /><ProductCard
         image="./manul/cup6.png"
-        title="Футболка"
+        title="Кружка"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
@@ -155,14 +119,8 @@ function App(){
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
       /><ProductCard
-        image="./manul/tishka_white.png"
+        image="./manul/tishka_black_pro.png"
         title="Футболка"
-        price="??"
-        rating="4.5"
-        onAddToCart={() => alert('Добавлено в корзину!')}
-      /><ProductCard
-        image="manul.png"
-        title="Продукт 1"
         price="??"
         rating="4.5"
         onAddToCart={() => alert('Добавлено в корзину!')}
