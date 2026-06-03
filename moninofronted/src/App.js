@@ -9,15 +9,21 @@ import Sidebar from './Sidebar/Sidebar.jsx';
 
 function App(){
   return (
-    <div className="page-layout">
+    <div className="stranichka">
       <Navbar/>
       <div className="page-body">
         <Sidebar/>
         <div className="content">
           <div className='product-grid'>
+<<<<<<< HEAD
         <ProductCard
           image="./manul/chehol_manul1.png"
           title="Продукт 1"
+=======
+          <ProductCard
+          image="./manul/case.png"
+          title="Чехол"
+>>>>>>> c3f372f8a7310cad505cac117f163eb50a96c2f9
           price="??"
           rating="4.5"
           onAddToCart={() => alert('Добавлено в корзину!')}
