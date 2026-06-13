@@ -15,7 +15,7 @@ function Navbar() {
             <a href="./services.html" className="nav-link">Манулы</a>
           </li>
           <li>
-            <a href="./contact/html" className="nav-link">Контакты</a>
+            <a href="./contact.html" className="nav-link">Контакты</a>
           </li>
         </ul>
       </div>
