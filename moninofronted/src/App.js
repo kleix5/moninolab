@@ -3,7 +3,6 @@ import Navbar from './Navbar/Navbar.jsx';
 import Footer from './Footer/Footer.jsx';
 import ProductCard from './Content/ProductCard.jsx';
 import Sidebar from './Sidebar/Sidebar.jsx';
-import Profile from './123/Profile.jsx';
 
 const products = [
   { id: 1, image: "./manul/chehol_manul1.png", title: "Чехол", category: "Чехол", price: "??", rating: "4.5" },
