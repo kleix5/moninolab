@@ -8,7 +8,7 @@ function About() {
       <Navbar />
       <main className="page-content1">
         <h1>О нас</h1>
-        <p>Жопа</p>
+        <p>123</p>
       </main>
       <Footer />
     </div>
