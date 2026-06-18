@@ -11,7 +11,6 @@ import Footer from './Footer/Footer.jsx';
 function App(){
   return (
 <div className="App">
-      {/* <Navbar/> */}
       <main>
         <Routes>
           <Route path="/" element={<Osnova />} />
@@ -20,7 +19,6 @@ function App(){
 
         </Routes>
       </main>
-      {/* <Footer/> */}
     </div>
   );
 }

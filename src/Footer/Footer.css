@@ -44,15 +44,3 @@
 .footer-links a:hover {
   color: #a7a5ad;
 }
-
-/* @media (max-width: 640px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-links {
-    width: 100%;
-    gap: 12px;
-  }
-} */
