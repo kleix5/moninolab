@@ -39,7 +39,7 @@ function Osnova(){
 
   return (
     <div className="stranichka">
-      {/* <Navbar/> */}
+      <Navbar/>
       <div className="page-body">
         <Sidebar onCategoryChange={setSelectedCategory} activeCategory={selectedCategory} />
         <div className="content">

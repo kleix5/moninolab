@@ -11,7 +11,7 @@ import Footer from './Footer/Footer.jsx';
 function App(){
   return (
 <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <main>
         <Routes>
           <Route path="/" element={<Osnova />} />
