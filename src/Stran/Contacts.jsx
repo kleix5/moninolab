@@ -1,6 +1,6 @@
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-import './About.css';
+import './Contacts.css'
 
 function Contact() {
   return (
