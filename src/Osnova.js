@@ -5,10 +5,6 @@ import ProductCard from './Content/ProductCard.jsx';
 import Sidebar from './Sidebar/Sidebar.jsx';
 import './index.css'
 
-
-
-
-
 const products = [
   { id: 1, image: "./manul/chehol_manul1.png", title: "Чехол", category: "Чехол", price: "??", rating: "4.5" },
   { id: 2, image: "./manul/chehol_manul2.png", title: "Чехол", category: "Чехол", price: "??", rating: "4.5" },
@@ -39,7 +35,7 @@ function Osnova(){
 
   return (
     <div className="stranichka">
-      {/* <Navbar/> */}
+      <Navbar/>
       <div className="page-body">
         <Sidebar onCategoryChange={setSelectedCategory} activeCategory={selectedCategory} />
         <div className="content">
